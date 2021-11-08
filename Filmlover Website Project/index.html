@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+select {
+  width: 75%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=submit]{
+  background-color:grey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=text],[type=email],[type=date]{
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+</style>
+
+
+<meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-9">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1254">
+
+  <meta name="description" content="Film sitesi">
+  <meta name="keywords" content="Film,sitesi,komik,korkunc,dram">
+  <meta name="author" content="Serdar Zekioglu">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+  <title>Anasayfa</title>
+</head>
+
+
+<body bgcolor="grey" >
+
+	<table width="100%">
+		<tr>
+			<td>
+	<a href="index.html">
+	<img src="img/logo.png" width="100" height="100" style="padding-left: 25px"> </a>
+			</td>
+	<td>
+		
+
+  <font face="Forte">
+  <div style="font-size: 50px; padding-left: 220px" >&rArr;FILMLOVER'S WEBSITE&lArr;</div>
+</font>
+
+</td>
+</tr>
+</table>
+
+
+
+<ul style="padding-left: 315px">
+  <li><a href="index.html">Anasayfa</a></li>
+  <li><a href="aksiyon.html">Aksiyon Filmleri</a></li>
+  <li><a href="bilim.html">Bilim Kurgu Filmleri</a></li>
+  <li><a href="savas.html">Savaş Filmleri </a></li>
+  <li><a href="komedi.html">Komedi Filmleri </a></li>
+  <li><a href="biyografi.html">Biyografi Filmleri </a></li>
+</ul>
+
+<table>
+ <tr style="background-color: #333333">
+   <td width="150" valign="top">
+    <ul style="margin-top: 55px">
+    
+  <li><a href="oyuncular.html">Oyuncular</a></li>
+  
+  <li><a href="yonetmenler.html">Yönetmenler</a></li>
+  
+  
+</td>
+</ul>
+
+<td >
+  <h2 style="color: white; text-align: center;">SON EKLENEN FİLMLER</h2>
+ <iframe name="trg" src="yenifilmler.html" width="1330" height="500">
+</iframe>
+</td>
+
+ </tr>
+</table>
+
+
+
+
+
+<center>
+<div style="width: 75%; padding-bottom: 100px; background-color:#333333">
+  <font color="white" face="Verdana">
+<h1>İletişim Formu</h1>
+<h3>(Lütfen istek ve şikayetlerinizi bize gönderiniz.)</h3>
+
+<form action="https://formsubmit.co/serdarzek1997@gmail.com" method="POST">
+
+<table>
+   <tr>
+    <td>Lütfen Seçim yapınız</td>
+    <td>
+      <form action="">
+        <input type="radio" name="cinsiyet" value="Erkek">İstek<br>
+          <input type="radio" name="cinsiyet" value="Kadın">Şikayet</td>
+        </form>
+  </tr>
+  <tr>
+    <td>Adınız:</td>
+    <td><input type="text" name="Adi" placeholder="Lütfen Adınızı Giriniz"><br></td>
+  </tr>
+  <tr>
+    <td>Soyadınız:</td>
+    <td><input type="text" name="Soyadi" placeholder="Lütfen Soyadınızı Giriniz"></td>
+  </tr>
+  <tr>
+    <td>Eposta:</td>
+    <td><input type="email" name="Eposta" placeholder="Lütfen E-posta Giriniz"></td>
+  </tr>
+  <tr>
+    <td>İstek tarihi:</td>
+    <td><input type="date" name="tarih"></td>
+  </tr>
+  <tr>
+    <td>Cinsiyetiniz:</td>
+    <td><form action=""><input type="radio" name="cinsiyet" value="Erkek">Erkek<br>
+          <input type="radio" name="cinsiyet" value="Kadın">Kadın</td></form>
+  </tr>
+  <tr>
+    <td>Lütfen Film Türünü seçiniz</td>
+    <td><select name="film">,
+    <option name="" value="Secim bos" selected> Lütfen film türü seçiniz</option>
+    <option name="film1" value="Aksiyon">Aksiyon</option>
+    <option name="film2" value="Komedi">Komedi</option>
+    <option name="film3" value="Biyografi">Biyografi</option>
+    <option name="film4" value="Bilim Kurgu">Bilim Kurgu</option>
+    <option name="film5" value="Savaş">Savaş</option>
+
+  </select> 
+  </td>
+  </tr>
+  <tr>
+    <td>Lütfen Filmin Adını Giriniz:</td>
+    <td><input type="text" name="FilmAdi:"></td>
+  </tr>
+  <tr>
+    <td>İstek veya Şikayetinizi yazınız:</td>
+    <td><textarea cols="50" rows="7" name="mesaj"></textarea></td>
+  </tr>
+
+
+</table>
+<br>
+<input style="font-size: 20px; box-shadow: 5px;" type="submit" value="Mesajı gönder">
+</form>
+</font>
+</center>
+</div>
+
+
+
+</body>
+</html>
+
+
+
